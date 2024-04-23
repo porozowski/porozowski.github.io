@@ -1,0 +1,55 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif, monospace;
+       /*code makhsose neshon dadn size monasb aks dar hame dastgah ha az site https://css-tricks.com/perfect-full-page-background-image*/
+    background: url(header.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    
+
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+.btn{
+    font-weight: 700;
+    /*gerd kardn goshe ha*/
+    border-radius: 300px;
+    /*uppercase baes in mishe hameye kalame ha ba font bozorg nveshte beshan*/
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: #F05F44;
+    border-color: #F05F44;
+}
+    /*bara vaghtie k ro dokme miri range ziresh rang delkhahe khodtn bashe*/
+.btn-primary:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 4px;
+
+}
+hr{
+    border-color: #F05F44;
+    border-width: 3px;
+    /*andze khate b sorat toli*/
+    max-width: 80px;
+
+}
+.container{
+    /*baraye in k nveshte biad vasat*/
+    height: 100%;
+    width: 100%;
+}
+.buffer{
+    height: 10rem;
+}
